@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-----navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span>Jayashree</span><i class="fa fa-female" aria-hidden="true"></i>
+            Portfolio
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home"><i class="fa fa-home" aria-hidden="true"></i>
+                  Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="fa fa-female" aria-hidden="true"></i>
+                  About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                  My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"><i class="fa fa-mobile" aria-hidden="true"></i>
+                  Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <!----home section-->
+      <section id="home">
+        <p class="text-center">I am <span>Jayashree</span></p>
+        <p class="text-center">I am a UI <span>Developer</span></p>
+        <p class="text-center">I am a <span>FreeLancer</span></p>
+        <button type="button" class="bt">
+          <a href="https://docs.google.com/document/d/1TiHJIUgzBGoL9soVy9QAgITnyqwhdRFH/edit">get resume</a><i class="fa fa-download" aria-hidden="true"></i>
+</button>
+    </section>
+     <!------about section-->
+     <section id="about">
+      <h2>ABOUT ME</h2>
+     <div class="oval">
+     <div class="pic">
+     <img src="s.jpg">
+     <div class="content">
+    
+       <p>My Name is Jayashree.<br>
+        I am Computer Science Graduate.<br>
+        I am certified in Web Design.<br>
+        I like to design a web page.<br>
+        If I get a chance to work in your company defintely I will fullfill your expectations.</p>
+   </section> 
+    <!---skills section----->
+    <section id="skills">
+      <h1 class="text-center">My Skills</h1>
+      <div class="container">
+        <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+          <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+            <label>HTML</label>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%">
+                85%
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <label>CSS</label>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%">
+                75%
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+          <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+            <label>JAVASCRIPT</label>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%">
+                70%
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <label>BOOTSTRAP</label>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%">
+                75%
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-lg-3 p-0 mb-lg-3 mb-0">
+          <div class="col-lg-6 col-12 pt-lg-0 pt-3">
+            <label>MS OFFICE</label>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%">
+                75%
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!------contact section---->
+    <section id="contact">
+      <div class="kk">
+        <form>   
+          <h2>contact</h2>
+      <div class="ipt">
+        <input type="text"id="name"required>
+        <label for="name"><i class="fa fa-user-o" aria-hidden="true"></i>
+          YOUR NAME</label>
+      </div>
+      <div class="ipt">
+        <input type="text"id="number"required>
+        <label for="number"><i class="fa fa-mobile" aria-hidden="true"></i>
+          PHONE NUMBER</label>
+      </div>
+      <div class="ipt">
+        <input type="text"id="email"required>
+        <label for="email"><i class="fa fa-envelope" aria-hidden="true"></i>
+          Email Id</label>
+      </div>
+      <div class="ipt">
+        <textarea id="msg" rows="5"required></textarea>
+        <label for="msg"><i class="fa fa-commenting-o" aria-hidden="true"></i>YOUR MESSAGE</label>
+      </div>
+      <button type="submit" class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        SUBMIT</button>
+        <h6>*this is just a design,form not working.</h6>
+        </form>
+      </div>  
+    </section>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
